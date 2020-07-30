@@ -67,7 +67,7 @@ extras_require['fast'] = extras_require['crypto']
 
 
 setup(
-    name="Qtum Electrum",
+    name="Coinevo Electrum",
     version=version.ELECTRUM_VERSION,
     python_requires='>={}'.format(MIN_PYTHON_VERSION),
     install_requires=requirements,
@@ -94,10 +94,10 @@ setup(
     },
     scripts=['electrum/electrum'],
     data_files=data_files,
-    description="Lightweight Qtum Wallet",
+    description="Lightweight Coinevo Wallet",
     author="CodeFace",
-    author_email="codeface@qtum.info",
+    author_email="codeface@coinevo.tech",
     license="MIT Licence",
-    url="https://qtum.org",
-    long_description="""Lightweight Qtum Wallet""",
+    url="https://coinevo.tech",
+    long_description="""Lightweight EVO Wallet""",
 )

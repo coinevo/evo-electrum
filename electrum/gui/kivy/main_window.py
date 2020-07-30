@@ -214,7 +214,7 @@ class ElectrumWindow(App):
             self.switch_to('send')
             self._invoice_intent_queued = invoice
             return
-        if invoice.lower().startswith('qtum:'):
+        if invoice.lower().startswith('evo:'):
             self.set_URI(invoice)
         elif invoice.lower().startswith('lightning:'):
             self.set_ln_invoice(invoice)
@@ -432,7 +432,7 @@ class ElectrumWindow(App):
         if is_address(data):
             self.set_URI(data)
             return
-        if data.startswith('qtum:'):
+        if data.startswith('evo:'):
             self.set_URI(data)
             return
         if data.startswith('channel_backup:'):

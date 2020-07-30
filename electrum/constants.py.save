@@ -83,9 +83,9 @@ class QtumMainnet(AbstractNet):
     POS_LIMIT = 0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     QIP9_POS_LIMIT = 0x0000000000001fffffffffffffffffffffffffffffffffffffffffffffffffff
 
-    QIP5_FORK_HEIGHT = 6600
-    QIP9_FORK_HEIGHT = 6600
-    OFFLINE_STAKE_HEIGHT = 200000
+    QIP5_FORK_HEIGHT = 466600
+    QIP9_FORK_HEIGHT = 466600
+    OFFLINE_STAKE_HEIGHT = 680000
 
     LN_REALM_BYTE = 0
     LN_DNS_SEEDS = []
