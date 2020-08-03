@@ -75,7 +75,7 @@ class QtumMainnet(AbstractNet):
     DEFAULT_SERVERS = read_json('servers.json', {})
     CHECKPOINTS = read_json('checkpoints.json', {})
     BLOCK_HEIGHT_FIRST_LIGHTNING_CHANNELS = 0
-    HEADERS_URL = 'https://s.coinevo.tech/electrum_headers'
+#    HEADERS_URL = 'https://s.coinevo.tech/electrum_headers'
 
     POS_NO_RETARGET = False
 
@@ -92,7 +92,7 @@ class QtumMainnet(AbstractNet):
 
     # for the 88 and 2301 coin type issue, see https://github.com/satoshilabs/slips/pull/196
     # Qtum official uses 88 as coin type
-    BIP44_COIN_TYPE = 88
+    BIP44_COIN_TYPE = 0
     SLIP_COIN_TYPE = 2301
 
     XPRV_HEADERS = {
